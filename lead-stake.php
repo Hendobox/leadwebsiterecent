@@ -20,7 +20,7 @@
 
                     <div id="sub" style="margin-top: 20px !important; display:none ">
                     <a href="https://stake.leadwallet.io" target="_blank" class="btn-lead text-center" style="margin-top: 20px; color:white !important; background:#b11264; ">DApp 1.0</a>
-                    <a href="https://www.leadwallet.io/lead-stake-new" target="_blank" class="btn-lead text-center" style="margin-top: 20px; color:white !important; background:#b11264; ">DApp 2.0</a>
+                    <a href="https://leadwallet.io/lead-stake-new" target="_blank" class="btn-lead text-center" style="margin-top: 20px; color:white !important; background:#b11264; ">DApp 2.0</a>
                     </div>
                     </div>
 				<div class="description-content pb-0 wow fadeInUp spanner"  data-wow-delay="0.2s">

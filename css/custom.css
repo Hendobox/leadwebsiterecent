@@ -1,0 +1,473 @@
+
+    /* .tabs ul {
+    margin: 0;
+    padding: 0 0 1em 0;
+    font-weight: bold; } */
+
+    /* .tabs ul li {
+    background: #eee; } */
+
+
+.tabs ul li a {
+    padding: .5em 1em;
+}
+
+
+.cus__tabaccordion .tabs ul li a:hover, .cus__tabaccordion .tabs ul li a.active {
+    background: #b11264;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px #333;
+    font-weight: bold;
+    color: #fff;
+}
+
+.item {
+    margin-bottom: 2px;
+}
+
+.item::before {
+    cursor: pointer;
+    font-weight: bold;
+    background: #eee;
+    padding: .5em;
+    display: block;
+}
+
+.item.active::before {
+    background: #b11264;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 4px;
+}
+
+.item.active .item-content {
+    padding: 1em;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@media all and (min-width: 800px) {
+    .item.active .item-content {
+        padding-top: 0;
+    }
+
+    .tabs-side .tabs li {
+        margin-bottom: 2px;
+    }
+}
+/*
+The project specific CSS starts here
+This is the minimum CSS that you will need in order for this to work
+*/
+    .tabbed-content{
+        margin-top:6rem;
+    }
+.tabbed-content .tabs {
+    display: none; }
+.tabbed-content .item {
+    min-height: 2em; }
+.tabbed-content .item::before {
+    content: attr(data-title); }
+
+.tabbed-content .item .item-content {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+.tabbed-content .item.active .item-content {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+
+@media all and (min-width: 800px) {
+    .tabbed-content .tabs {
+        display: block; }
+    .tabbed-content .tabs li {
+        display: inline-block; }
+    .tabbed-content .tabs li a {
+        display: block; }
+    .tabbed-content .item {
+        min-height: 0;
+        display: none;}
+    .tabbed-content .item::before {
+        display: none; }
+    .tabbed-content.tabs-side .tabs {
+        width: 150px;
+        float: left; }
+    .tabbed-content.tabs-side .tabs li {
+        display: block; }
+    .tabbed-content.tabs-side .item {
+        margin-left: 150px; }
+    .tabbed-content .item.active {
+        display: block;
+    }
+
+
+    .cus__tabaccordion {
+        background-color: #e80c8614;
+        padding: 12px 0;
+        border-radius: 4px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: calc(100% - 21rem);
+    }
+
+    .cus__tabaccordion .tabs ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .cus__tabaccordion .tabs ul li a{
+        color: #b11264;
+    }
+
+
+    .message-strip{
+        background-color: #e80c8614;
+    }
+
+}
+
+
+.detail-strip {
+    background-color: #e80c8614;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.wallet-balance {
+    color: #888383;
+    font-size: 40px;
+}
+
+.wallet-amount {
+    color: #888383;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.filter-section {
+    margin-top: 18px;
+}
+
+.filter-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.filter-section ul li:not(:last-child) {
+    margin-right: 30px;
+}
+.filter-section ul li {
+    flex-grow: 1;
+}
+
+.filter-section ul li:last-child {
+    flex-basis: 400px;
+    max-width: 400px;
+}
+
+.info-message {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+
+.lead-wallet-table table tr th{
+    color: #000;
+    background-color: #feebf5;
+    font-weight: bold;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lead-wallet-table-wrap{
+    margin-top: 20px;
+}
+.return-perc {
+    display: flex;
+    justify-content: end;
+}
+
+.return-perc-item {
+    width: 33%;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.column-two {
+    width: 46.8%;
+}
+
+.lead-wallet-table table tbody tr:not(:last-of-type) td {
+    padding-bottom: 42px;
+}
+.lead-wallet-table-action {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lead-wallet-table-action-item {
+    flex-basis: 37%;
+    text-align: center;
+}
+
+.lead-wallet-table-action-item .contract-btn {
+    padding: 12px;
+}
+
+
+.bt-emozi {
+    margin-top: 14px;
+}
+
+.details-description {
+    display: flex;
+    padding: 12px 0;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.details-description-item:not(:last-of-type) {
+    margin-right: 40px;
+}
+
+.range-slider-group {
+    width: 500px;
+}
+
+/* .range-slider {
+  margin: 60px 0 0 0%;
+} */
+
+.range-slider {
+    width: 100%;
+}
+
+.range-slider__range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 10px;
+    outline: none;
+    margin: 0;
+    border-radius: 33px !important;
+}
+.range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #b11264;
+    cursor: pointer;
+    -webkit-transition: background 0.15s ease-in-out;
+    transition: background 0.15s ease-in-out;
+}
+.range-slider__range::-webkit-slider-thumb:hover {
+    background: #b11264;
+}
+.range-slider__range:active::-webkit-slider-thumb {
+    background: #b11264;
+}
+.range-slider__range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: #b11264;
+    cursor: pointer;
+    -moz-transition: background 0.15s ease-in-out;
+    transition: background 0.15s ease-in-out;
+}
+.range-slider__range::-moz-range-thumb:hover {
+    background: #b11264;
+}
+.range-slider__range:active::-moz-range-thumb {
+    background: #b11264;
+}
+.range-slider__range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #b11264;
+}
+
+
+
+::-moz-range-track {
+    background: #b11264;
+    border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+    border: 0;
+}
+
+
+.range-title-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bonus-title {
+    color: #888383;
+    font-size: 40px;
+}
+
+.bonus-filter {
+    display: flex;
+    align-items: center;
+}
+
+.bonus-item-group {
+    margin-left: 30px;
+    display: inline-flex;
+    font-size: 25px;
+}
+
+.bonus-item:not(:last-child){
+    margin-right: 40px;
+}
+
+.relase-period {
+    color: #b11264;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.release-period-date {
+    font-size: 28px;
+}
+
+@media screen and (max-width:1024px){
+    .cus__tabaccordion {
+        width: 100%;
+    }
+
+    .wallet-balance {
+        font-size: 20px;
+    }
+    .wallet-amount {
+        font-size: 20px;
+    }
+
+    .filter-section ul li:last-child {
+        flex-basis: 400px;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .lead-wallet-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .table-data {
+        font-size: 30px;
+    }
+
+    .wallet-balance {
+        font-size: 20px;
+    }
+
+    .bonus-item-group {
+        margin-left: 30px;
+        display: inline-flex;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .wallet-balance {
+        font-size: 18px;
+    }
+
+    .wallet-amount {
+        font-size: 17px;
+        margin-left: 0;
+        display: block;
+    }
+
+    .filter-section ul li {
+        margin-bottom: 20px;
+        min-width: 100%;
+    }
+
+    .lead-wallet-table-wrap {
+        margin-top: 20px;
+    }
+
+    .lead-wallet-table-action-item {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .tabbed-content .item {
+        min-height: inherit;
+        margin-bottom: 0;
+        padding: 10px 0;
+    }
+
+    .item::before {
+        cursor: pointer;
+        font-weight: bold;
+        background: #feebf5;
+        padding: 12px 15px;
+        display: block;
+        border-radius: 4px;
+    }
+
+    .tabbed-content .item.active .item-content {
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+        background: #fffafc;
+    }
+    .bonus-filter {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bonus-title {
+        color: #888383;
+        font-size: 17px;
+        flex-basis: 100%;
+    }
+
+    .bonus-item-group {
+        margin-left: 0;
+        font-size: 17px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lead-wallet-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .table-data {
+        font-size: 25px;
+
+    }
+
+    .range-slider-group {
+        width: 100%;
+    }
+}

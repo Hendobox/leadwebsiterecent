@@ -1,0 +1,295 @@
+.Path-6540 {
+	width: 1136.1px;
+	height: 580px;
+	margin: 25px 7.9px 20px 18px;
+	border-top: solid 10px #e6e6e6;
+	border-bottom: solid 10px #e6e6e6;
+	border-left: solid 10px #e6e6e6;
+}
+
+/* //new css */
+.boxez {
+	float: left;
+	width: 30%;
+	background-color: #fff;
+}
+
+.boxez h5,
+.boxez p {
+	font-family: "Montserrat", sans-serif;
+}
+
+.boxez:nth-child(1),
+.boxez:nth-child(2) {
+	border-right: 10px solid #e6e6e6;
+	height: 560px;
+	width: 33%;
+}
+
+.boxez:nth-child(3) {
+	height: 600px;
+	width: 33%;
+}
+
+.boxez .boxez-content,
+.boxez .boxez-content .span-top,
+.span-middle,
+.boxez:nth-child(3) .span-last,
+.path-last:before {
+	background: #fff;
+}
+
+.boxez .boxez-content .span-top {
+	height: 50px;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+.path-content {
+	padding: 0 20px;
+	position: relative;
+	font-family: Montserrat;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+.path-circle {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #d01961;
+	border-radius: 50%;
+	left: -14px;
+	top: 0;
+}
+
+.span-middle {
+	height: 90px;
+	margin-right: -20px;
+}
+
+.boxez:nth-child(3) .span-middle {
+	height: 200px;
+	margin-left: -10px;
+	margin-top: -15px;
+}
+
+.boxez:nth-child(3) .span-last {
+	height: 50px;
+	margin-right: -20px;
+	margin-top: -30px;
+}
+
+.path-last {
+	position: relative;
+}
+
+.path-last:before {
+	position: absolute;
+	content: "";
+	height: 200px;
+	width: 15px;
+	left: -13px;
+	top: 5px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div {
+	font-family: Montserrat !important;
+}
+
+@media (max-width: 900px) {
+	.Path-6540 {
+		display: none;
+	}
+}
+
+@media (min-width: 900px) {
+	.mobile-view {
+		display: none;
+		padding: 40px 0 0 !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.mobile-view {
+		width: 500px;
+		padding: 40px 0 0;
+		margin-left: 10px !important;
+	}
+
+	.mobile-view .wrapper-x {
+		margin-left: 0 !important;
+		width: 300px !important;
+		padding: 10px;
+	}
+
+	.mobile-view .wrapper-x:before {
+		width: 25px !important;
+		left: -25px !important;
+		top: 5px !important;
+	}
+
+	.path-last:before {
+		display: none !important;
+	}
+}
+
+@media (max-width: 760px) {
+	.mobile-view {
+		padding: 40px 0 0;
+	}
+	.path-last:before {
+		display: none !important;
+	}
+
+	.titlex h2 {
+		/* display: none !important; */
+		line-height: 1 !important;
+	}
+
+	/* .image-box h6{
+    font-size: 12px !important;
+  } */
+}
+
+.mobile-view {
+	border-left: solid 10px #e6e6e6;
+	margin: 40px auto 0;
+	width: 500px;
+	position: relative;
+}
+
+.mobile-view .wrapper-x {
+	margin-left: 30px;
+	border: 3px solid #d01961;
+	width: 400px;
+	padding: 10px;
+	position: relative;
+}
+
+.mobile-view .wrapper-x:before {
+	content: "";
+	background-color: #d01961;
+	width: 55px;
+	height: 4px;
+	position: absolute;
+	left: -55px;
+	top: 7px;
+}
+
+.cap {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-color: #e6e6e6;
+	border-radius: 50%;
+	left: -15px;
+	top: -19px;
+}
+
+/* wallet rules */
+.Rectangle-3296 {
+	padding: 20px;
+	border-radius: 12px;
+	background-color: #d01961;
+}
+
+.Google-playstore {
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.22;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 10px;
+	position: relative;
+	top: 13px;
+}
+
+.iconfinder_logo_brand_brands_logos_playstore_google_2993672 {
+	width: 30.8px;
+	height: 40.3px;
+	margin: 6px 10.2px 6.7px 0;
+	object-fit: contain;
+}
+
+.GET-IT-ON {
+	width: 72px;
+	height: 18px;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.29;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+}
+
+.Google-playstore:before {
+	content: "GET IT ON";
+	position: absolute;
+	margin-bottom: 20px;
+	font-size: 12px;
+	top: -10px;
+}
+
+.plays {
+	position: relative;
+	top: 6px;
+}
+
+.plays:before {
+	content: "GET IT ON";
+	position: absolute;
+	margin-bottom: 20px;
+	font-size: 10px;
+	top: -18px;
+}
+
+.wallex .plays:before {
+	top: -12px;
+}
+
+/* .image-box {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+.image-box h6{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  background: #000;
+  width: 100%;
+
+} */
+
+.bar img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.team-img {
+	height: 7.5rem;
+	border-radius: 20%;
+}

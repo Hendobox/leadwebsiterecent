@@ -124,8 +124,8 @@ include 'head.php';
 		<div class="row">
 			<div class="col-xl-12 col-md-12 valign-center  circles">
                 <center>
-                	<img src="img/part/circle.png" style="max-width: 100%;"  alt="" class="wow fadeInUp circle-img img-lg" data-wow-delay="0.2s">
-                	<img src="img/part/Group 4500.png" style="max-width: 100%;"  alt="" class="wow fadeInUp circle-img img-sm" data-wow-delay="0.2s">
+                	<img src="img/part/circles.png" style="max-width: 100%;"  alt="" class="wow fadeInUp circle-img img-lg" data-wow-delay="0.2s">
+                	<img src="img/part/Group 4500s.png" style="max-width: 100%;"  alt="" class="wow fadeInUp circle-img img-sm" data-wow-delay="0.2s">
                 </center>
 			</div>			
 		</div>
